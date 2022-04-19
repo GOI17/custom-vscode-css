@@ -9,7 +9,7 @@
   .content
   .editor-group-container
   .title:not(.tabs) {
-  display: none;
+  /* display: none; */
 }
 
 .monaco-workbench .editor-group-container.active {
