@@ -1,4 +1,4 @@
-/* .monaco-workbench
+.monaco-workbench
   .part.editor
   .content
   .editor-group-container
@@ -28,4 +28,4 @@
 
 .monaco-workbench .editor-group-container .editor-container {
   flex-grow: 3;
-} */
+}
