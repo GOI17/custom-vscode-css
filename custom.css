@@ -1,0 +1,31 @@
+.monaco-workbench
+  .part.editor
+  .content
+  .editor-group-container
+  .title.tabs
+  .tabs-breadcrumbs,
+.monaco-workbench
+  .part.editor
+  .content
+  .editor-group-container
+  .title:not(.tabs) {
+  display: none;
+}
+
+.monaco-workbench .editor-group-container.active {
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+  width: 100%;
+}
+
+.monaco-workbench .editor-group-container .title {
+  border: 2px solid red;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.monaco-workbench .editor-group-container .editor-container {
+  flex-grow: 3;
+}
