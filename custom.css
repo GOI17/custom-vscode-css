@@ -11,7 +11,7 @@
   .title:not(.tabs) {
   display: none;
 }
-
+/* 
 .monaco-workbench .editor-group-container.active {
   display: flex;
   flex-direction: row;
@@ -28,4 +28,4 @@
 
 .monaco-workbench .editor-group-container .editor-container {
   flex-grow: 3;
-}
+} */
